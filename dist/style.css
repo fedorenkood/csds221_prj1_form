@@ -1,0 +1,37 @@
+select {
+  width: 100%;
+}
+
+#divide,
+#header {
+  padding: 15px;
+}
+
+.buttons {
+  float: right;
+  padding: 15px;
+}
+
+.col-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.has-error {
+  background-color: #ffcccc !important;
+}
+
+.form-input-block {
+  padding: 24px;
+}
+
+.form-input-block-addon {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-input-block-element {
+  width: 70% !important;
+}
